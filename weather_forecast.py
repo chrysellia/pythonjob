@@ -78,9 +78,9 @@ def main():
         print(df.to_string(index=False))
         print("\nCalculations:")
         print("-" * 80)
-        print(f"Average Temperature: {stats['average_temp']:.2f}°C")
-        print(f"Max Humidity: {stats['max_humidity']}%")
-        print(f"Average Pressure: {stats['average_pressure']:.2f} hPa")
+        print(f"\nAverage Temperature: {stats['average_temp']:.2f}°C")
+        print(f"\nMax Humidity: {stats['max_humidity']}%")
+        print(f"\nAverage Pressure: {stats['average_pressure']:.2f} hPa")
 
     except Exception as e:
         print(f"Error: {str(e)}")
